@@ -53,17 +53,17 @@ Estrutura do Projeto
 
 Após gerar um componente, a estrutura do projeto será semelhante a esta:
 
-plaintext
 
-Copiar código
-
-`src/
+```sh
+src/
   components/
     Button/
       Button.tsx
       Button.module.css
       Button.test.tsx
       README.md`
+
+```
 
 Configuração de Estilo e Teste
 ------------------------------
