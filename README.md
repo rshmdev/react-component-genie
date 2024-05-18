@@ -25,7 +25,7 @@ A CLI fará uma série de perguntas para configurar seu componente:
 1.  Nome do Componente: O nome do componente que você deseja criar.
 2.  Diretório: O diretório onde o componente será criado.
 3.  Estilo: Escolha entre Tailwind, Styled Components, ou CSS.
-4.  Testes: Escolha entre Jest, Playwright, ou Nenhum.
+4.  Testes: Escolha entre Jest ou Nenhum.
 5.  TypeScript: Escolha se deseja usar TypeScript.
 6.  Variante: Escolha uma variante de componente (Padrão, Primário, Secundário, Nenhum).
 
