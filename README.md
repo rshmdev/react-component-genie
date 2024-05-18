@@ -77,7 +77,6 @@ Configuração de Estilo e Teste
 ### Testes
 
 -   Jest: Um arquivo de teste utilizando Jest e React Testing Library será criado.
--   Playwright: Um arquivo de teste utilizando Playwright será criado.
 
 Contribuição
 ------------
