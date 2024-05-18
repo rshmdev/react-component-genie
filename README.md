@@ -8,19 +8,18 @@ Primeiro, instale a CLI globalmente usando npm:
 
 ```sh
 npm install -g react-component-genie-cli `
+```
 
-Uso
+## Uso
 ---
 
 Para usar a CLI, navegue até o diretório raiz do seu projeto React e execute o comando:
 
-sh
 
-Copiar código
-
-`react-component-genie`
-
-A CLI fará uma série de perguntas para configurar seu componente:
+```sh
+react-component-genie
+```
+### A CLI fará uma série de perguntas para configurar seu componente:
 
 1.  Nome do Componente: O nome do componente que você deseja criar.
 2.  Diretório: O diretório onde o componente será criado.
@@ -33,13 +32,11 @@ A CLI fará uma série de perguntas para configurar seu componente:
 
 Criar um componente básico com CSS:
 
-sh
+```sh
+react-component-genie
+```
 
-Copiar código
-
-`react-component-genie`
-
-Responda às perguntas da CLI:
+### Responda às perguntas da CLI:
 
 -   Nome do Componente: `Button`
 -   Diretório: `src/components`
@@ -51,6 +48,7 @@ Responda às perguntas da CLI:
 A CLI criará a estrutura do componente no diretório especificado, incluindo arquivos de estilo e testes.
 
 Estrutura do Projeto
+
 --------------------
 
 Após gerar um componente, a estrutura do projeto será semelhante a esta:
