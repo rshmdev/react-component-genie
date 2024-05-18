@@ -1,4 +1,4 @@
-`# React Component Genie CLI
+# React Component Genie CLI
 
 React Component Genie CLI é uma ferramenta poderosa para gerar componentes React de forma automatizada. Ela facilita a criação de componentes com diferentes estilos e configurações de teste, permitindo que você escolha entre Tailwind, Styled Components, CSS, Jest, e Playwright.
 
