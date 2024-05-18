@@ -1,15 +1,32 @@
 {
-  "name": "create-component-cli",
+  "name": "react-genie-cli",
   "version": "1.0.0",
+  "description": "Uma ferramenta CLI para gerar componentes React automaticamente.",
   "main": "dist/index.js",
   "bin": {
-    "create-component": "dist/index.js"
+    "genie": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",
     "start": "ts-node src/index.ts",
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rshmdev/react-genie-cli.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "generator",
+    "cli"
+  ],
+  "author": "Rian Moraes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rshmdev/react-genie-cli/issues"
+  },
+  "homepage": "https://github.com/rshmdev/react-genie-cli#readme",
   "dependencies": {
     "chalk": "^4.1.0",
     "commander": "^7.2.0",

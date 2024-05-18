@@ -17,7 +17,7 @@ Para usar a CLI, navegue até o diretório raiz do seu projeto React e execute o
 
 
 ```sh
-react-component-genie
+genie
 ```
 ### A CLI fará uma série de perguntas para configurar seu componente:
 
@@ -33,7 +33,7 @@ react-component-genie
 Criar um componente básico com CSS:
 
 ```sh
-react-component-genie
+genie
 ```
 
 ### Responda às perguntas da CLI:

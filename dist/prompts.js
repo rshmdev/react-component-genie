@@ -7,8 +7,11 @@ exports.questions = [
         name: 'componentName',
         message: 'Qual é o nome do componente?',
         validate: (input) => {
-            if (!input) {
+            if (!input.trim()) {
                 return 'O nome do componente não pode estar vazio';
+            }
+            if (!/^[a-zA-Z]+$/.test(input)) {
+                return 'O nome do componente deve conter apenas letras';
             }
             return true;
         },
@@ -20,7 +23,7 @@ exports.questions = [
         message: 'Em qual diretório você quer criar o componente?',
         default: 'src/components',
         validate: (input) => {
-            if (!input) {
+            if (!input.trim()) {
                 return 'O diretório não pode estar vazio';
             }
             return true;
