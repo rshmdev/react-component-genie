@@ -61,8 +61,6 @@ src/
       Button.tsx
       Button.module.css
       Button.test.tsx
-      README.md`
-
 ```
 
 Configuração de Estilo e Teste
